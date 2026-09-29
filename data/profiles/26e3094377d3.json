@@ -1,0 +1,86 @@
+{
+  "session_id": "26e3094377d3",
+  "language": "hi",
+  "fields": {
+    "for_whom": {
+      "value": "self",
+      "display": "Self",
+      "source": "spoken"
+    },
+    "full_name": {
+      "value": "Rahul",
+      "display": "Rahul",
+      "source": "spoken"
+    },
+    "gender": {
+      "value": "male",
+      "display": "Male",
+      "source": "spoken"
+    },
+    "dob": {
+      "value": "1995-08-15",
+      "display": "15 Aug 1995",
+      "source": "spoken"
+    },
+    "district": {
+      "value": "Nagpur",
+      "display": "Nagpur",
+      "source": "spoken"
+    },
+    "religion": {
+      "value": "Hindu",
+      "display": "Hindu",
+      "source": "spoken"
+    },
+    "marital": {
+      "value": "never_married",
+      "display": "Never married",
+      "source": "spoken"
+    },
+    "qualification": {
+      "value": "12th",
+      "display": "12th",
+      "source": "spoken"
+    },
+    "job": {
+      "value": "farming",
+      "display": "Farming",
+      "source": "spoken"
+    },
+    "caste": {
+      "value": null,
+      "display": "—",
+      "source": "spoken"
+    },
+    "income": {
+      "value": null,
+      "display": "—",
+      "source": "spoken"
+    }
+  },
+  "photo": null,
+  "skipped": [
+    "caste",
+    "income"
+  ],
+  "metrics": {
+    "attempts": {},
+    "clarifies": {},
+    "answer_seconds": {},
+    "clarifications": {},
+    "mode": "agentic",
+    "llm_calls": 0,
+    "t3_chars": 0,
+    "kb_hits": 0,
+    "kb_misses": 0,
+    "capture_sources": {
+      "spoken": 11
+    },
+    "derived": {
+      "age": 30,
+      "state": "Maharashtra"
+    }
+  },
+  "completed_at": 1785331476.757365,
+  "duration_sec": 0.0
+}

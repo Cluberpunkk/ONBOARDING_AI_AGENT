@@ -1,0 +1,54 @@
+{
+  "session_id": "2d3889f926ee",
+  "language": "kn",
+  "fields": {
+    "for_whom": {
+      "value": "son",
+      "display": "Son"
+    },
+    "full_name": {
+      "value": "Rajesh Gowda",
+      "display": "Rajesh Gowda"
+    },
+    "gender": {
+      "value": "male",
+      "display": "Male"
+    },
+    "dob": {
+      "value": "1995-08-15",
+      "display": "15 Aug 1995"
+    },
+    "district": {
+      "value": "Mysuru",
+      "display": "Mysuru"
+    },
+    "religion": {
+      "value": "Hindu",
+      "display": "Hindu"
+    },
+    "caste": {
+      "value": "Gowda",
+      "display": "Gowda"
+    },
+    "marital": {
+      "value": "never_married",
+      "display": "Never Married"
+    },
+    "qualification": {
+      "value": "bachelors",
+      "display": "Degree"
+    },
+    "job": {
+      "value": "farming",
+      "display": "Farming"
+    },
+    "income": {
+      "value": "3L-5L",
+      "display": "3L-5L per annum"
+    }
+  },
+  "photo": null,
+  "attempts": {},
+  "completed_at": 1785196472.065449,
+  "duration_sec": 7.0
+}

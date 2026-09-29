@@ -1,0 +1,54 @@
+{
+  "session_id": "fb7cd2b6eb07",
+  "language": "en",
+  "fields": {
+    "for_whom": {
+      "value": "son",
+      "display": "Son"
+    },
+    "full_name": {
+      "value": "Virendra Patil",
+      "display": "Virendra Patil"
+    },
+    "gender": {
+      "value": "male",
+      "display": "Male"
+    },
+    "dob": {
+      "value": "1995-08-15",
+      "display": "15 Aug 1995"
+    },
+    "district": {
+      "value": "Pune",
+      "display": "Pune"
+    },
+    "religion": {
+      "value": "Hindu",
+      "display": "Hindu"
+    },
+    "caste": {
+      "value": "Maratha",
+      "display": "Maratha"
+    },
+    "marital": {
+      "value": "never_married",
+      "display": "Never Married"
+    },
+    "qualification": {
+      "value": "bachelors",
+      "display": "Graduation"
+    },
+    "job": {
+      "value": "farming",
+      "display": "Farming"
+    },
+    "income": {
+      "value": "3L-5L",
+      "display": "3 Lakh - 5 Lakh"
+    }
+  },
+  "photo": null,
+  "attempts": {},
+  "completed_at": 1785196443.221812,
+  "duration_sec": 7.3
+}

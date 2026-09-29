@@ -1,0 +1,81 @@
+{
+  "session_id": "250c35abcfe1",
+  "language": "ml",
+  "fields": {
+    "for_whom": {
+      "value": "son",
+      "display": "Son"
+    },
+    "full_name": {
+      "value": "Arun Nair",
+      "display": "Arun Nair"
+    },
+    "gender": {
+      "value": "male",
+      "display": "Male"
+    },
+    "dob": {
+      "value": "1995-08-15",
+      "display": "15 Aug 1995"
+    },
+    "district": {
+      "value": "Kochi",
+      "display": "Kochi"
+    },
+    "religion": {
+      "value": "Hindu",
+      "display": "Hindu"
+    },
+    "caste": {
+      "value": "Nair",
+      "display": "Nair"
+    },
+    "marital": {
+      "value": "never_married",
+      "display": "Never Married"
+    },
+    "qualification": {
+      "value": "bachelors",
+      "display": "Bachelors"
+    },
+    "job": {
+      "value": "farming",
+      "display": "Farming"
+    },
+    "income": {
+      "value": "under_1.5L",
+      "display": "under 1.5L"
+    }
+  },
+  "photo": null,
+  "skipped": [],
+  "metrics": {
+    "attempts": {
+      "for_whom": 1,
+      "full_name": 1,
+      "dob": 1,
+      "district": 1,
+      "religion": 1,
+      "caste": 1,
+      "marital": 1,
+      "qualification": 1,
+      "job": 1,
+      "income": 1
+    },
+    "clarifies": {},
+    "answer_seconds": {
+      "for_whom": 0.01,
+      "full_name": 0.81,
+      "dob": 0.02,
+      "district": 0.94,
+      "religion": 0.02,
+      "caste": 0.79,
+      "marital": 0.86,
+      "qualification": 0.02,
+      "job": 0.02,
+      "income": 0.01
+    }
+  },
+  "completed_at": 1785238580.924599,
+  "duration_sec": 3.5
+}

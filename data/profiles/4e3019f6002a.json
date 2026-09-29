@@ -1,0 +1,81 @@
+{
+  "session_id": "4e3019f6002a",
+  "language": "gu",
+  "fields": {
+    "for_whom": {
+      "value": "son",
+      "display": "Son"
+    },
+    "full_name": {
+      "value": "Rahul Patel",
+      "display": "Rahul Patel"
+    },
+    "gender": {
+      "value": "male",
+      "display": "Male"
+    },
+    "dob": {
+      "value": "1995-08-15",
+      "display": "15 Aug 1995"
+    },
+    "district": {
+      "value": "Surat",
+      "display": "Surat"
+    },
+    "religion": {
+      "value": "Hindu",
+      "display": "Hindu"
+    },
+    "caste": {
+      "value": "Patel",
+      "display": "Patel"
+    },
+    "marital": {
+      "value": "never_married",
+      "display": "Never Married"
+    },
+    "qualification": {
+      "value": "bachelors",
+      "display": "Bachelors"
+    },
+    "job": {
+      "value": "farming",
+      "display": "Farming"
+    },
+    "income": {
+      "value": "3L-5L",
+      "display": "3L-5L"
+    }
+  },
+  "photo": null,
+  "skipped": [],
+  "metrics": {
+    "attempts": {
+      "for_whom": 1,
+      "full_name": 1,
+      "dob": 1,
+      "district": 1,
+      "religion": 1,
+      "caste": 1,
+      "marital": 1,
+      "qualification": 1,
+      "job": 1,
+      "income": 1
+    },
+    "clarifies": {},
+    "answer_seconds": {
+      "for_whom": 0.01,
+      "full_name": 0.9,
+      "dob": 0.04,
+      "district": 1.07,
+      "religion": 0.04,
+      "caste": 0.79,
+      "marital": 0.04,
+      "qualification": 0.03,
+      "job": 0.02,
+      "income": 0.03
+    }
+  },
+  "completed_at": 1785238625.15637,
+  "duration_sec": 3.0
+}

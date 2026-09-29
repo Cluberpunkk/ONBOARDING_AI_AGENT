@@ -1,0 +1,91 @@
+{
+  "session_id": "677602e6965b",
+  "language": "en",
+  "fields": {
+    "for_whom": {
+      "value": "self",
+      "display": "Self"
+    },
+    "full_name": {
+      "value": "Anita Sharma",
+      "display": "Anita Sharma"
+    },
+    "gender": {
+      "value": "female",
+      "display": "Female"
+    },
+    "dob": {
+      "value": "1995-08-15",
+      "display": "15 Aug 1995"
+    },
+    "district": {
+      "value": "Pune",
+      "display": "Pune"
+    },
+    "religion": {
+      "value": "Hindu",
+      "display": "Hindu"
+    },
+    "caste": {
+      "value": "Maratha",
+      "display": "Maratha"
+    },
+    "marital": {
+      "value": "never_married",
+      "display": "Never Married"
+    },
+    "qualification": {
+      "value": "bachelors",
+      "display": "Bachelors"
+    },
+    "job": {
+      "value": "job",
+      "display": "Job"
+    },
+    "income": {
+      "value": "3L-5L",
+      "display": "3L-5L"
+    }
+  },
+  "photo": null,
+  "skipped": [],
+  "metrics": {
+    "attempts": {
+      "for_whom": 1,
+      "full_name": 1,
+      "gender": 1,
+      "dob": 1,
+      "district": 1,
+      "religion": 1,
+      "caste": 1,
+      "marital": 1,
+      "qualification": 1,
+      "job": 1,
+      "income": 1
+    },
+    "clarifies": {},
+    "answer_seconds": {
+      "for_whom": 0.0,
+      "full_name": 0.0,
+      "gender": 0.0,
+      "dob": 0.0,
+      "district": 0.0,
+      "religion": 0.0,
+      "caste": 0.0,
+      "marital": 0.0,
+      "qualification": 0.0,
+      "job": 0.0,
+      "income": 0.0
+    },
+    "clarifications": {},
+    "mode": "classic",
+    "llm_calls": 0,
+    "t3_chars": 0,
+    "kb_hits": 0,
+    "kb_misses": 0,
+    "capture_sources": {},
+    "derived": {}
+  },
+  "completed_at": 1785277373.114534,
+  "duration_sec": 0.0
+}

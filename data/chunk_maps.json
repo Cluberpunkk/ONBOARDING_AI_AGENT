@@ -1,0 +1,2072 @@
+{
+ "ea2f05cb8617149fb7e7": {
+  "duration": 5.28,
+  "sentences": 4,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.32,
+    "text": "नमस्ते, मैं सखी हूँ।"
+   },
+   {
+    "i": 1,
+    "start": 1.32,
+    "end": 3.276,
+    "text": "दो मिनट में आपकी प्रोफाइल बना दूँगी।"
+   },
+   {
+    "i": 2,
+    "start": 3.276,
+    "end": 4.758,
+    "text": "बस बोलकर जवाब दीजिए।"
+   },
+   {
+    "i": 3,
+    "start": 4.758,
+    "end": 5.28,
+    "text": "शुरू करें?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.048,
+  "resume_safe": true,
+  "key": "intro",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "f83b082f54b400ed3298": {
+  "duration": 4.99,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 4.99,
+    "text": "प्रोफाइल किसके लिए है — अपने लिए, बेटे, बेटी, या दोस्त के लिए?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "for_whom",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "b87cec535f7e7a9ccaee": {
+  "duration": 0.88,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.88,
+    "text": "पूरा नाम क्या है?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "full_name",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "e6966565e1630c111956": {
+  "duration": 2.0,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 2.0,
+    "text": "लड़के के लिए है या लड़की के लिए?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "gender",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "f211e1dd122ef3311472": {
+  "duration": 4.0,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.242,
+    "text": "जन्म की तारीख़?"
+   },
+   {
+    "i": 1,
+    "start": 1.242,
+    "end": 4.0,
+    "text": "जैसे, पंद्रह अगस्त, उन्नीस सौ पचानवे।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.022,
+  "resume_safe": true,
+  "key": "dob",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "f6a6d478d7e55c9d7021": {
+  "duration": 0.97,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.97,
+    "text": "कौन से ज़िले से हैं?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "district",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "a704f74d7add010c162f": {
+  "duration": 0.88,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.88,
+    "text": "धर्म क्या है?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "religion",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "34bb400854a196d3999e": {
+  "duration": 0.69,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.69,
+    "text": "और जाति?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "caste",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "af2574cb6ce76ffeb264": {
+  "duration": 3.97,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.335,
+    "text": "पहले शादी हुई है?"
+   },
+   {
+    "i": 1,
+    "start": 1.335,
+    "end": 3.97,
+    "text": "कभी नहीं, तलाक़, या विधवा-विधुर?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.011,
+  "resume_safe": true,
+  "key": "marital",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "a4be437a39c4573d092b": {
+  "duration": 5.32,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 2.595,
+    "text": "पढ़ाई कहाँ तक हुई है?"
+   },
+   {
+    "i": 1,
+    "start": 2.595,
+    "end": 5.32,
+    "text": "जैसे दसवीं, बारहवीं, ग्रेजुएशन।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.084,
+  "resume_safe": true,
+  "key": "qualification",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "e9efba252ac4dfed21e5": {
+  "duration": 4.0,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.234,
+    "text": "काम क्या करते हैं?"
+   },
+   {
+    "i": 1,
+    "start": 1.234,
+    "end": 4.0,
+    "text": "नौकरी, बिज़नेस, खेती, या कुछ और?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.051,
+  "resume_safe": true,
+  "key": "job",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "aa8a561a12fa43bd4e0b": {
+  "duration": 2.08,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 2.08,
+    "text": "महीने की कमाई लगभग कितनी है?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "income",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "16160ada2fd7fcaee2d4": {
+  "duration": 7.6,
+  "sentences": 3,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.756,
+    "text": "अब एक बढ़िया फोटो।"
+   },
+   {
+    "i": 1,
+    "start": 1.756,
+    "end": 5.435,
+    "text": "नीचे कैमरा बटन दबाकर गैलरी से चुन लीजिए।"
+   },
+   {
+    "i": 2,
+    "start": 5.435,
+    "end": 7.6,
+    "text": "बाद में लगाना हो, तो स्किप बोल दीजिए।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.105,
+  "resume_safe": true,
+  "key": "photo",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "cce2f62637a7ba6e74c7": {
+  "duration": 1.28,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.28,
+    "text": "वाह, बढ़िया फोटो।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "photo_thanks",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "ac82fe8054678c9e64bd": {
+  "duration": 7.24,
+  "sentences": 4,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.707,
+    "text": "हो गया।"
+   },
+   {
+    "i": 1,
+    "start": 0.707,
+    "end": 2.181,
+    "text": "स्क्रीन पर देख लीजिए।"
+   },
+   {
+    "i": 2,
+    "start": 2.181,
+    "end": 5.283,
+    "text": "सब सही है, तो हरा बटन दबाइए।"
+   },
+   {
+    "i": 3,
+    "start": 5.283,
+    "end": 7.24,
+    "text": "बदलना हो, तो उस पर टैप करें।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.063,
+  "resume_safe": true,
+  "key": "review",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "838feffbe69fffec170c": {
+  "duration": 3.68,
+  "sentences": 3,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.835,
+    "text": "बधाई हो!"
+   },
+   {
+    "i": 1,
+    "start": 0.835,
+    "end": 2.071,
+    "text": "प्रोफाइल तैयार है।"
+   },
+   {
+    "i": 2,
+    "start": 2.071,
+    "end": 3.68,
+    "text": "लोकल में आपका स्वागत है।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.043,
+  "resume_safe": true,
+  "key": "done",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "dd81c894bfdec7712698": {
+  "duration": 1.77,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.77,
+    "text": "समझ नहीं पाई, फिर से बता दीजिए।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "clarify",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "3cf09a938b24de119f50": {
+  "duration": 3.36,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.256,
+    "text": "आवाज़ नहीं आई।"
+   },
+   {
+    "i": 1,
+    "start": 1.256,
+    "end": 3.36,
+    "text": "फिर से बोलिए, या नीचे टाइप करें।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.069,
+  "resume_safe": true,
+  "key": "silence",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "b2b2c3bdbf4e4db3c06c": {
+  "duration": 6.45,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 4.462,
+    "text": "प्रोफाइल के लिए उम्र अठारह या उससे ज़्यादा होनी चाहिए।"
+   },
+   {
+    "i": 1,
+    "start": 4.462,
+    "end": 6.45,
+    "text": "जन्म की तारीख़ फिर से बता दीजिए।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.064,
+  "resume_safe": true,
+  "key": "age_invalid",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "5ab6616af9d4dc89fbb2": {
+  "duration": 1.6,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.6,
+    "text": "बस दो सवाल और।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "almost_done",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "67263e06b4ee69a8897d": {
+  "duration": 1.46,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.46,
+    "text": "कोई बात नहीं, आगे बढ़ते हैं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "skip_ack",
+  "tier": "T1",
+  "lang": "hi"
+ },
+ "bae50548c5e9a3f69a79": {
+  "duration": 0.56,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.56,
+    "text": "अच्छा।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "ack_ok",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "fcc076cbb07c3f5995f0": {
+  "duration": 0.4,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.4,
+    "text": "बढ़िया।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "ack_good",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "adedba2cf8d5eb9cc2f5": {
+  "duration": 0.8,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.8,
+    "text": "नोट कर लिया।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "ack_noted",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "7a82775ebed4cf4c1fc5": {
+  "duration": 0.5,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.5,
+    "text": "समझ गई।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "ack_understood",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "1556535f0a33eb0a8a28": {
+  "duration": 0.44,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.44,
+    "text": "ठीक है।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "ack_right",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "9e74ef7fb8325f3f78bd": {
+  "duration": 0.4,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.4,
+    "text": "जी।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "ack_ji",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "f2f54cbc71fc040b4074": {
+  "duration": 1.04,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.04,
+    "text": "लड़के के लिए, सही?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "confirm_gender_male",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "ed4b501518f7e992f0f3": {
+  "duration": 1.28,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.28,
+    "text": "लड़की के लिए, सही?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "confirm_gender_female",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "ceca54d3f3d18c6a31f8": {
+  "duration": 0.8,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.8,
+    "text": "ये सही है?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "confirm_generic",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "8b56ccd6c43ebcd2f2c3": {
+  "duration": 1.25,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.25,
+    "text": "अच्छा, ये सब नोट कर लिया।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "batch_confirm",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "b330af3a54ea90a62e96": {
+  "duration": 1.28,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.28,
+    "text": "चलिए, आगे बढ़ते हैं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "bridge_next",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "04786686069681ffd144": {
+  "duration": 1.2,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.2,
+    "text": "और बस ये बचा है।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "bridge_remaining",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "dc127856b4451e713af4": {
+  "duration": 0.69,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.69,
+    "text": "हाँ तो,"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "bridge_resume",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "623acc37b0c8d73eae1c": {
+  "duration": 0.96,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.96,
+    "text": "जहाँ थी वहीं से —"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "bridge_where_we_were",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "eb39ab46bdbc855ecfad": {
+  "duration": 1.02,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.02,
+    "text": "ठीक है, बदल दिया।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "correction_ack",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "ab290ed4946d37b3861c": {
+  "duration": 0.56,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.56,
+    "text": "जी, बोलिए।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "interrupt_ack",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "77ec99f69dc4375efda3": {
+  "duration": 1.84,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.84,
+    "text": "ये मुझे नहीं पता, माफ़ कीजिए।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "offscript_no_answer",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "31e80f3d704983f183b6": {
+  "duration": 1.76,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.76,
+    "text": "ये बाद में ऐप में देख लीजिएगा।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "offscript_later",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "f2dff167e2b509572952": {
+  "duration": 1.68,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.68,
+    "text": "चलिए, प्रोफाइल पूरी कर लेते हैं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "steer_back",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "5ff1d65cec9b1ab50e32": {
+  "duration": 1.09,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.09,
+    "text": "मैं फिर से पूछती हूँ।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "meta_repeat",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "54550b4fe983fd3e7041": {
+  "duration": 1.17,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.17,
+    "text": "ठीक है, आराम से।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "meta_slow",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "d12a5f618a0b300be2b8": {
+  "duration": 1.52,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.52,
+    "text": "ठीक है, पीछे चलते हैं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "meta_back",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "3a10da0b67e9e7ca6461": {
+  "duration": 1.73,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.73,
+    "text": "चलिए, प्रोफाइल पर वापस आते हैं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "calm_redirect",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "641df0a0596b24396ff5": {
+  "duration": 2.0,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 2.0,
+    "text": "आप नीचे टाइप करके भी बता सकते हैं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "text_mode_offer",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "04cc760bb4158a83add5": {
+  "duration": 1.4,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.4,
+    "text": "पूरी तारीख़ भी बता दीजिए।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "need_full_dob",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "c691835f50fc72f8b502": {
+  "duration": 0.64,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.64,
+    "text": "जी बिलकुल।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "ack_sure",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "8d6d7f97c115a7439cd0": {
+  "duration": 0.32,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.32,
+    "text": "ठीक।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "ack_fine",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "a5669855ed87dbc6fbbe": {
+  "duration": 1.52,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.52,
+    "text": "एक बार कन्फ़र्म कर दीजिए।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "confirm_one_more",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "91c045d8654315322077": {
+  "duration": 1.2,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.2,
+    "text": "मैंने सही सुना ना?"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "confirm_heard_right",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "1bdcf6f2b92bf9f8e718": {
+  "duration": 1.28,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.28,
+    "text": "दोनों बातें नोट कर लीं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "batch_confirm_two",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "5f226921f01de4ffa5bd": {
+  "duration": 1.44,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.44,
+    "text": "और बस कुछ ही बाकी हैं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "batch_remaining",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "765193acfa49fc3ff9b1": {
+  "duration": 1.2,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.2,
+    "text": "ठीक है, आगे चलते हैं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "bridge_ok_moving",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "3af9b03685e5cf7f75cb": {
+  "duration": 0.93,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.93,
+    "text": "एक सेकंड, फिर से —"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "bridge_one_second",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "a40c42819f4a6c27179d": {
+  "duration": 0.8,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.8,
+    "text": "बस थोड़ा और।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "bridge_almost",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "8cc324f2ba4046957d68": {
+  "duration": 0.88,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.88,
+    "text": "कोई बात नहीं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "meta_no_problem",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "c57caa74d99801a597b0": {
+  "duration": 1.04,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.04,
+    "text": "आराम से सोचिए।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "meta_take_time",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "ab907db61681e60e16fb": {
+  "duration": 1.12,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.12,
+    "text": "जी, मैं सुन रही हूँ।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "still_listening",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "984f1d277f2e026913cc": {
+  "duration": 1.36,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.36,
+    "text": "आवाज़ नहीं आई।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "didnt_hear",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "0a0f9685553f8d1bc9d9": {
+  "duration": 1.2,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.2,
+    "text": "बहुत बढ़िया चल रहा है।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "encourage_good",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "2f662b68bd9353dbee15": {
+  "duration": 1.04,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.04,
+    "text": "बस आख़िरी सवाल।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "encourage_last",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "ffb81d7bb711fb0bd099": {
+  "duration": 1.51,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.51,
+    "text": "फोटो बाद में भी लगा सकते हैं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "photo_nudge",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "26dd2968a973781630d3": {
+  "duration": 0.96,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.96,
+    "text": "एक बार देख लीजिए।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "review_check",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "381d25866c684531b753": {
+  "duration": 1.01,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.01,
+    "text": "अच्छा, खेती।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "react_farming",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "f3ca9430ea59a321f585": {
+  "duration": 1.12,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.12,
+    "text": "अच्छा, बिज़नेस।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "react_business",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "7993b6a85a40f5365b49": {
+  "duration": 1.07,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.07,
+    "text": "अच्छा, नौकरी।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "react_job",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "356390a70b09b33d76ac": {
+  "duration": 1.28,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.28,
+    "text": "अच्छा, पढ़ाई चल रही है।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "react_student",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "22bada6a7ba56ec8ba9c": {
+  "duration": 1.04,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.04,
+    "text": "अच्छा, दसवीं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "react_10th",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "a616cea6b1768d0a77f7": {
+  "duration": 1.04,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.04,
+    "text": "अच्छा, बारहवीं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "react_12th",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "227f0fbee181da5fc70c": {
+  "duration": 0.96,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.96,
+    "text": "अच्छा, डिप्लोमा।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "react_diploma",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "9af96b731954541e23ee": {
+  "duration": 1.28,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.28,
+    "text": "अच्छा, ग्रेजुएशन।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "react_graduate",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "b8de4731f9c06d4d5b61": {
+  "duration": 1.2,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.2,
+    "text": "अच्छा, मास्टर्स।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "react_masters",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "913d9482db8033a3b2ef": {
+  "duration": 1.84,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.84,
+    "text": "अच्छा, पीएचडी।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "react_phd",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "2f35168b15a29f112eca": {
+  "duration": 0.16,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.16,
+    "text": "और"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "conn_and",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "d5a69cdeaf3f4f7e4e53": {
+  "duration": 0.93,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.93,
+    "text": "अच्छा, तो"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "conn_so",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "190429cdc1c96eb204cc": {
+  "duration": 0.4,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.4,
+    "text": "और अब"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "conn_and_now",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "1bacb345e2c502dfd8da": {
+  "duration": 0.5,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.5,
+    "text": "तो,"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "open_to",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "1e81d0f6290f1ef4eb11": {
+  "duration": 0.44,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.44,
+    "text": "अच्छा,"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "open_accha",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "4f79ffa2850a851ab242": {
+  "duration": 0.44,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.44,
+    "text": "चलिए,"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "open_chaliye",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "9e2a58abc541afec2191": {
+  "duration": 0.72,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.72,
+    "text": "जी, बताती हूँ —"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "beat_batati_hoon",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "2cdf185f2b1de28efed6": {
+  "duration": 0.72,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.72,
+    "text": "देखिए,"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "beat_dekhiye",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "177e04d2d68232a3aeee": {
+  "duration": 1.28,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.28,
+    "text": "ओह, ठीक है।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "recover_oh",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "b3235affb331279f0681": {
+  "duration": 1.28,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.28,
+    "text": "अच्छा, समझ गई।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "recover_samjhi",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "ea9478ca7d3d68eb571f": {
+  "duration": 1.25,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.25,
+    "text": "हाँ, ठीक कर देती हूँ।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "recover_theek",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "96027ebd79d59a076735": {
+  "duration": 0.91,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 0.91,
+    "text": "कोई जल्दी नहीं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "patience",
+  "tier": "T2",
+  "lang": "hi"
+ },
+ "c6cf1293960cc0c2cb65": {
+  "duration": 5.72,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.855,
+    "text": "प्रोफाइल बनाना बिलकुल फ्री है।"
+   },
+   {
+    "i": 1,
+    "start": 1.855,
+    "end": 5.72,
+    "text": "आगे किसी से बात करने के लिए कुछ प्लान होते हैं, वो आप बाद में देख लीजिएगा।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.036,
+  "resume_safe": true,
+  "key": "kb_is_free",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "517defeec34570f74429": {
+  "duration": 5.92,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.355,
+    "text": "ये मैं पक्का नहीं बता सकती।"
+   },
+   {
+    "i": 1,
+    "start": 1.355,
+    "end": 5.92,
+    "text": "ऐप के मदद वाले हिस्से में प्राइवेसी की पूरी जानकारी दी हुई है।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.074,
+  "resume_safe": true,
+  "key": "kb_who_sees_data",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "2dbdd6cc9fda6036bca4": {
+  "duration": 2.24,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.245,
+    "text": "बस दो-तीन मिनट।"
+   },
+   {
+    "i": 1,
+    "start": 1.245,
+    "end": 2.24,
+    "text": "कुछ ही सवाल बाकी हैं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.139,
+  "resume_safe": true,
+  "key": "kb_how_long",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "bb995cea46ba01c9bdbe": {
+  "duration": 2.44,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.273,
+    "text": "फोटो ज़रूरी नहीं है।"
+   },
+   {
+    "i": 1,
+    "start": 1.273,
+    "end": 2.44,
+    "text": "बाद में भी लगा सकते हैं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.067,
+  "resume_safe": true,
+  "key": "kb_photo_required",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "919a22541b0748658e56": {
+  "duration": 3.84,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.563,
+    "text": "ये मैं पक्का नहीं बता सकती।"
+   },
+   {
+    "i": 1,
+    "start": 1.563,
+    "end": 3.84,
+    "text": "ऐप के मदद वाले हिस्से में इसकी जानकारी मिल जाएगी।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.052,
+  "resume_safe": true,
+  "key": "kb_can_edit_later",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "ddd0f45ab5dac4b9ea35": {
+  "duration": 4.72,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 2.935,
+    "text": "ये सवाल सिर्फ़ सही रिश्ते दिखाने के लिए हैं।"
+   },
+   {
+    "i": 1,
+    "start": 2.935,
+    "end": 4.72,
+    "text": "नहीं बताना चाहें तो स्किप बोल दीजिए।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.072,
+  "resume_safe": true,
+  "key": "kb_why_caste_income",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "880f2ff8de5bf3001c9f": {
+  "duration": 6.0,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 3.011,
+    "text": "मैं सखी हूँ, लोकल की आवाज़ वाली मदद।"
+   },
+   {
+    "i": 1,
+    "start": 3.011,
+    "end": 6.0,
+    "text": "असली इंसान नहीं, पर आपकी प्रोफाइल पूरी बनवा दूँगी।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.083,
+  "resume_safe": true,
+  "key": "kb_are_you_real",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "19c0626c66a3361a9290": {
+  "duration": 5.15,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 2.032,
+    "text": "प्रोफाइल कभी भी हटा सकते हैं।"
+   },
+   {
+    "i": 1,
+    "start": 2.032,
+    "end": 5.15,
+    "text": "कैसे करना है, वो ऐप के मदद वाले हिस्से में दिया हुआ है।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.049,
+  "resume_safe": true,
+  "key": "kb_delete_profile",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "ab039e22f64f3b3a2d4d": {
+  "duration": 3.28,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 3.28,
+    "text": "प्रोफाइल बनने के बाद आपको रिश्तों की प्रोफाइल दिखने लगेंगी।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "kb_after_profile",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "8b0cc847939aab82a151": {
+  "duration": 6.16,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.797,
+    "text": "ये मैं पक्का नहीं बता सकती।"
+   },
+   {
+    "i": 1,
+    "start": 1.797,
+    "end": 6.16,
+    "text": "सुरक्षा और प्राइवेसी की पूरी जानकारी ऐप के मदद वाले हिस्से में दी हुई है।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.022,
+  "resume_safe": true,
+  "key": "kb_is_safe",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "8f69c331114ad3b9bd64": {
+  "duration": 3.28,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 2.275,
+    "text": "बिलकुल।"
+   },
+   {
+    "i": 1,
+    "start": 2.275,
+    "end": 3.28,
+    "text": "घर के किसी भी सदस्य के लिए प्रोफाइल बना सकते हैं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.569,
+  "resume_safe": false,
+  "key": "kb_family_use",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "5fdd59c60f0c8ea5b067": {
+  "duration": 6.4,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 3.695,
+    "text": "थोड़ा इंटरनेट चाहिए।"
+   },
+   {
+    "i": 1,
+    "start": 3.695,
+    "end": 6.4,
+    "text": "धीमा चले तो नीचे टाइप करके भी जवाब दे सकते हैं।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.279,
+  "resume_safe": false,
+  "key": "kb_internet_slow",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "eb7fb721a2362acf8793": {
+  "duration": 4.64,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 2.035,
+    "text": "हाँ, भाषा बदल सकते हैं।"
+   },
+   {
+    "i": 1,
+    "start": 2.035,
+    "end": 4.64,
+    "text": "पेज दोबारा खोलकर अपनी भाषा चुन लीजिए।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.055,
+  "resume_safe": true,
+  "key": "kb_change_language",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "f4fe29d866ecf8264fb1": {
+  "duration": 4.8,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 2.79,
+    "text": "लोकल आपके शहर और भाषा का ऐप है।"
+   },
+   {
+    "i": 1,
+    "start": 2.79,
+    "end": 4.8,
+    "text": "ये उसी का शादी-ब्याह वाला हिस्सा है।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.119,
+  "resume_safe": true,
+  "key": "kb_what_is_lokal",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "54056fcead98f63ff436": {
+  "duration": 2.96,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.012,
+    "text": "मैं सखी हूँ।"
+   },
+   {
+    "i": 1,
+    "start": 1.012,
+    "end": 2.96,
+    "text": "आपकी प्रोफाइल बनाने में मदद करती हूँ।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.097,
+  "resume_safe": true,
+  "key": "kb_who_are_you",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "869724d6457673713a45": {
+  "duration": 5.76,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 2.849,
+    "text": "थोड़ी देर रुककर वहीं से चालू कर सकते हैं।"
+   },
+   {
+    "i": 1,
+    "start": 2.849,
+    "end": 5.76,
+    "text": "ज़्यादा देर हो जाए तो फिर से शुरू करना पड़ेगा।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.023,
+  "resume_safe": true,
+  "key": "kb_do_later",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "f7b5516df8376afc5253": {
+  "duration": 2.8,
+  "sentences": 1,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 2.8,
+    "text": "कोई बात नहीं, मैं आसान शब्दों में फिर से पूछती हूँ।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.0,
+  "resume_safe": true,
+  "key": "kb_dont_understand",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "606d8932a90e486129af": {
+  "duration": 4.69,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.411,
+    "text": "अभी मैं ही हूँ।"
+   },
+   {
+    "i": 1,
+    "start": 1.411,
+    "end": 4.69,
+    "text": "टीम तक पहुँचने का तरीक़ा ऐप के मदद वाले हिस्से में मिल जाएगा।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.103,
+  "resume_safe": true,
+  "key": "kb_talk_to_human",
+  "tier": "KB",
+  "lang": "hi"
+ },
+ "9323e7f4f2dcbac8fbe2": {
+  "duration": 6.93,
+  "sentences": 2,
+  "chunks": [
+   {
+    "i": 0,
+    "start": 0.0,
+    "end": 1.77,
+    "text": "कुंडली मैं नहीं देख सकती।"
+   },
+   {
+    "i": 1,
+    "start": 1.77,
+    "end": 6.93,
+    "text": "प्रोफाइल में जन्म की तारीख़ रहती है, बाकी बात आप दोनों परिवार आपस में तय कर लीजिएगा।"
+   }
+  ],
+  "aligned": true,
+  "share_error": 0.026,
+  "resume_safe": true,
+  "key": "kb_kundli",
+  "tier": "KB",
+  "lang": "hi"
+ }
+}

@@ -1,0 +1,54 @@
+{
+  "session_id": "2da62538e325",
+  "language": "ml",
+  "fields": {
+    "for_whom": {
+      "value": "son",
+      "display": "Son"
+    },
+    "full_name": {
+      "value": "Arun Nair",
+      "display": "Arun Nair"
+    },
+    "gender": {
+      "value": "male",
+      "display": "Male"
+    },
+    "dob": {
+      "value": "1995-08-15",
+      "display": "15 Aug 1995"
+    },
+    "district": {
+      "value": "Kochi",
+      "display": "Kochi"
+    },
+    "religion": {
+      "value": "Hindu",
+      "display": "Hindu"
+    },
+    "caste": {
+      "value": "Nair",
+      "display": "Nair"
+    },
+    "marital": {
+      "value": "never_married",
+      "display": "Never Married"
+    },
+    "qualification": {
+      "value": "bachelors",
+      "display": "Degree"
+    },
+    "job": {
+      "value": "farming",
+      "display": "Farming"
+    },
+    "income": {
+      "value": "3L-5L",
+      "display": "3L-5L"
+    }
+  },
+  "photo": null,
+  "attempts": {},
+  "completed_at": 1785196479.239876,
+  "duration_sec": 7.2
+}

@@ -1,0 +1,105 @@
+{
+  "session_id": "851b3e680d73",
+  "language": "hi",
+  "fields": {
+    "for_whom": {
+      "value": "daughter",
+      "display": "Daughter",
+      "source": "spoken"
+    },
+    "full_name": {
+      "value": "Priya Sharma",
+      "display": "Priya Sharma",
+      "source": "spoken"
+    },
+    "gender": {
+      "value": "female",
+      "display": "Female",
+      "source": "derived"
+    },
+    "dob": {
+      "value": "1995-08-15",
+      "display": "15 August 1995",
+      "source": "spoken"
+    },
+    "district": {
+      "value": "नागपुर",
+      "display": "नागपुर",
+      "source": "spoken"
+    },
+    "religion": {
+      "value": "Hindu",
+      "display": "Hindu",
+      "source": "spoken"
+    },
+    "marital": {
+      "value": "never_married",
+      "display": "Never Married",
+      "source": "spoken"
+    },
+    "qualification": {
+      "value": "bachelors",
+      "display": "Bachelors",
+      "source": "spoken"
+    },
+    "job": {
+      "value": "farming",
+      "display": "Farming",
+      "source": "spoken"
+    },
+    "caste": {
+      "value": "Maratha",
+      "display": "Maratha",
+      "source": "spoken"
+    },
+    "income": {
+      "value": "3L-5L",
+      "display": "3 Lakhs per year",
+      "source": "spoken"
+    }
+  },
+  "photo": null,
+  "skipped": [],
+  "metrics": {
+    "attempts": {
+      "for_whom": 1,
+      "full_name": 1,
+      "dob": 1,
+      "district": 1,
+      "religion": 1,
+      "marital": 1,
+      "qualification": 1,
+      "job": 1,
+      "caste": 1,
+      "income": 1
+    },
+    "clarifies": {},
+    "answer_seconds": {
+      "for_whom": 0.08,
+      "full_name": 1.0,
+      "dob": 1.08,
+      "district": 0.03,
+      "religion": 0.06,
+      "marital": 0.03,
+      "qualification": 0.04,
+      "job": 0.04,
+      "caste": 0.87,
+      "income": 0.9
+    },
+    "clarifications": {},
+    "mode": "agentic",
+    "llm_calls": 4,
+    "t3_chars": 0,
+    "kb_hits": 0,
+    "kb_misses": 0,
+    "capture_sources": {
+      "spoken": 10,
+      "derived": 1
+    },
+    "derived": {
+      "age": 30
+    }
+  },
+  "completed_at": 1785277101.044395,
+  "duration_sec": 4.2
+}

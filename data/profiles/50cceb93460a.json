@@ -1,0 +1,54 @@
+{
+  "session_id": "50cceb93460a",
+  "language": "en",
+  "fields": {
+    "for_whom": {
+      "value": "self",
+      "display": "Self"
+    },
+    "full_name": {
+      "value": "Anita Sharma",
+      "display": "Anita Sharma"
+    },
+    "gender": {
+      "value": "female",
+      "display": "Female"
+    },
+    "dob": {
+      "value": "1995-08-15",
+      "display": "15 Aug 1995"
+    },
+    "district": {
+      "value": "Pune",
+      "display": "Pune"
+    },
+    "religion": {
+      "value": "Hindu",
+      "display": "Hindu"
+    },
+    "caste": {
+      "value": "Maratha",
+      "display": "Maratha"
+    },
+    "marital": {
+      "value": "never_married",
+      "display": "Never Married"
+    },
+    "qualification": {
+      "value": "bachelors",
+      "display": "Bachelors"
+    },
+    "job": {
+      "value": "job",
+      "display": "Job"
+    },
+    "income": {
+      "value": "3L-5L",
+      "display": "3L-5L"
+    }
+  },
+  "photo": null,
+  "attempts": {},
+  "completed_at": 1785233273.957859,
+  "duration_sec": 0.0
+}

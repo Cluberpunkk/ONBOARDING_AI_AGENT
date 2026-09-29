@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Sakhi — Lokal Matrimony</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500;600;700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+<!-- ============ SCREEN 1: LANGUAGE ============ -->
+<section id="screen-language" class="screen active">
+  <div class="brand">
+    <h1 class="brand-name">Lokal</h1>
+    <p class="brand-tag">MATRIMONY &middot; SAKHI</p>
+  </div>
+  <h2 class="lang-title">अपनी भाषा चुनिए<br><span>Choose your language</span></h2>
+  <div class="lang-grid" id="langGrid"></div>
+  <p class="mic-note" id="micNote">🎤 बोलकर जवाब देने के लिए माइक की इजाज़त चाहिए · Mic permission lets you answer by voice</p>
+  <div class="resume-bar" id="resumeBar">
+    <span id="resumeText"></span>
+    <div class="resume-actions">
+      <button id="resumeYes" class="resume-yes"></button>
+      <button id="resumeNo" class="resume-no"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SCREEN 2: CONVERSATION ============ -->
+<section id="screen-talk" class="screen">
+  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+  <div class="chips-row" id="chipsRow"></div>
+
+  <div class="avatar-wrap">
+    <div class="avatar-glow" id="avatarGlow"></div>
+    <div class="avatar-rings" id="avatarRings">
+      <span class="ring r1"></span><span class="ring r2"></span><span class="ring r3"></span>
+    </div>
+    <div class="avatar-circle" id="avatarCircle">
+      <img id="avatarImg" src="/static/avatar/avatar.png" alt="Sakhi"
+           onerror="this.style.display='none';document.getElementById('avatarFallback').style.display='block'">
+      <svg id="avatarFallback" viewBox="0 0 120 120" style="display:none">
+        <circle cx="60" cy="60" r="58" fill="#F7EFDD"/>
+        <path d="M18 78 Q18 30 60 26 Q102 30 102 78 L102 96 Q80 84 60 84 Q40 84 18 96 Z" fill="#3B2A20"/>
+        <circle cx="60" cy="62" r="30" fill="#C68B59"/>
+        <path d="M30 56 Q34 34 60 32 Q86 34 90 56 Q86 44 60 42 Q34 44 30 56Z" fill="#3B2A20"/>
+        <circle cx="49" cy="60" r="3.2" fill="#2A1B12"/>
+        <circle cx="71" cy="60" r="3.2" fill="#2A1B12"/>
+        <circle cx="60" cy="52" r="2.4" fill="#9E2B25"/>
+        <path id="mouth" d="M52 74 Q60 80 68 74" stroke="#8A4B2E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        <circle cx="36" cy="68" r="2.5" fill="#B8954A"/>
+        <circle cx="84" cy="68" r="2.5" fill="#B8954A"/>
+      </svg>
+      <!-- Video layers: idle loop always running, lipsync clip on top while Sakhi talks.
+           If either video fails, the img/SVG beneath shows — the flow never stalls. -->
+      <video id="avatarIdle" src="/static/avatar/idle_loop.mp4" muted loop playsinline autoplay></video>
+      <video id="avatarClip" playsinline preload="auto"></video>
+    </div>
+    <p class="avatar-name">सखी <span>Sakhi</span></p>
+    <p class="avatar-state" id="avatarState">&nbsp;</p>
+  </div>
+
+  <div class="bubble" id="questionBubble"></div>
+  <p class="tap-hint" id="tapHint" style="display:none"></p>
+  <div class="transcript" id="transcript"></div>
+
+  <div class="controls">
+    <button class="mic-btn" id="micBtn" aria-label="Speak">
+      <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>
+      </svg>
+    </button>
+    <p class="mic-hint" id="micHint">Tap to speak</p>
+  </div>
+
+  <!-- Photo handoff panel (hidden until photo stage) -->
+  <div class="photo-panel" id="photoPanel">
+    <label class="photo-btn">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>
+      <span id="photoBtnLabel">Choose photo</span>
+      <input type="file" id="photoInput" accept="image/jpeg,image/png,image/webp" hidden>
+    </label>
+    <button class="skip-btn" id="skipBtn">Skip for now</button>
+  </div>
+
+  <!-- Text fallback (appears after 2 failed voice attempts / no mic) -->
+  <div class="text-fallback" id="textFallback">
+    <input type="text" id="textAnswer" placeholder="Type your answer...">
+    <button id="textSend">Send</button>
+  </div>
+</section>
+
+<!-- ============ SCREEN 3: REVIEW ============ -->
+<section id="screen-review" class="screen">
+  <h2 class="review-title" id="reviewTitle">Check your details</h2>
+  <div class="photo-preview" id="photoPreview"></div>
+  <div class="fields-grid" id="fieldsGrid"></div>
+  <button class="confirm-btn" id="confirmBtn">✓ &nbsp;Create profile</button>
+</section>
+
+<!-- ============ SCREEN 4: DONE ============ -->
+<section id="screen-done" class="screen">
+  <div class="done-mark">✓</div>
+  <h2 class="done-title" id="doneTitle">Profile created!</h2>
+  <p class="done-sub">Welcome to Lokal</p>
+  <button class="feed-cta" id="feedCta"></button>
+</section>
+
+<!-- ============ SCREEN 5: MOCK FEED (static story-bridge, no backend) ============ -->
+<section id="screen-feed" class="screen">
+  <h2 class="review-title" id="feedTitle"></h2>
+  <p class="feed-sub" id="feedSub"></p>
+  <div class="feed-cards">
+    <div class="feed-card"><div class="feed-ava g1">P</div><div><b>Priya, 26</b><span>Nagpur · B.Com · Teacher</span></div><span class="feed-heart">♥</span></div>
+    <div class="feed-card"><div class="feed-ava g2">A</div><div><b>Anjali, 24</b><span>Pune · B.A. · Tailoring business</span></div><span class="feed-heart">♥</span></div>
+    <div class="feed-card"><div class="feed-ava g3">N</div><div><b>Neha, 27</b><span>Indore · 12th · Family shop</span></div><span class="feed-heart">♥</span></div>
+  </div>
+  <p class="feed-note">PREVIEW</p>
+</section>
+
+<!-- Demo overlay (?demo=1 only) -->
+<div class="demo-overlay" id="demoOverlay" style="display:none">
+  <span>⏱ <b id="demoMs">–</b></span>
+  <span>💰 <b id="demoCost">₹0.00</b></span>
+  <span>❓ <b id="demoQ">0/12</b></span>
+  <span>🎤 <b id="demoEndpoint">–</b></span>
+  <span>⌛ <b id="demoWall">0s</b></span>
+  <span class="demo-badge">Sakhi · 9 भाषाएँ · ~₹0.10/session</span>
+</div>
+
+
+<!-- Barge-in debug panel (?demo=1 only) — see the decision, don't guess it -->
+<div class="barge-debug" id="bargeDebug" style="display:none">
+  <div><b>BARGE-IN</b> <span id="bdEnabled">–</span> · AEC <span id="bdAec">–</span></div>
+  <div>rms <b id="bdRms">0.000</b> · floor <b id="bdFloor">0.000</b> · thresh <b id="bdThresh">0.000</b></div>
+  <div>guards: onset <span id="bdOnset">–</span> · sustain <span id="bdSustain">–</span> · probing <span id="bdProbing">–</span></div>
+  <div>duck pre/post <b id="bdRatio">–</b></div>
+  <div>decision: <b id="bdDecision">–</b></div>
+  <div>heard: <span id="bdHeard">–</span></div>
+</div>
+
+<!-- ALWAYS-ON state badge. Not behind ?demo=1 on purpose: the whole point is
+     that you can never again test a build without knowing what it is. -->
+<div class="live-pill" id="statePill" title="click for full runtime state">
+  <span class="dot" id="stateDot"></span>
+  <span id="statePillText">SAKHI</span>
+</div>
+<div class="state-panel" id="statePanel"><pre id="statePanelBody">loading…</pre></div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>

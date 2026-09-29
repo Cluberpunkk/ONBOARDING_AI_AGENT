@@ -1,0 +1,11 @@
+.env
+.env.local
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+.venv/
+data/tts_cache/
+data/tts_cache_backup_2026-07-28/
+data/avatar_cache/
+data/photos/

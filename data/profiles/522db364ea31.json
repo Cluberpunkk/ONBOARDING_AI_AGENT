@@ -1,0 +1,81 @@
+{
+  "session_id": "522db364ea31",
+  "language": "ta",
+  "fields": {
+    "for_whom": {
+      "value": "son",
+      "display": "Son"
+    },
+    "full_name": {
+      "value": "Murugan Selvam",
+      "display": "Murugan Selvam"
+    },
+    "gender": {
+      "value": "male",
+      "display": "Male"
+    },
+    "dob": {
+      "value": "1995-08-15",
+      "display": "15 Aug 1995"
+    },
+    "district": {
+      "value": "Madurai",
+      "display": "Madurai"
+    },
+    "religion": {
+      "value": "Hindu",
+      "display": "Hindu"
+    },
+    "caste": {
+      "value": "Nadar",
+      "display": "Nadar"
+    },
+    "marital": {
+      "value": "never_married",
+      "display": "Never Married"
+    },
+    "qualification": {
+      "value": "bachelors",
+      "display": "Bachelors"
+    },
+    "job": {
+      "value": "farming",
+      "display": "Farming"
+    },
+    "income": {
+      "value": "3L-5L",
+      "display": "3L-5L"
+    }
+  },
+  "photo": null,
+  "skipped": [],
+  "metrics": {
+    "attempts": {
+      "for_whom": 1,
+      "full_name": 1,
+      "dob": 1,
+      "district": 1,
+      "religion": 1,
+      "caste": 1,
+      "marital": 1,
+      "qualification": 1,
+      "job": 1,
+      "income": 1
+    },
+    "clarifies": {},
+    "answer_seconds": {
+      "for_whom": 0.01,
+      "full_name": 0.97,
+      "dob": 0.01,
+      "district": 0.78,
+      "religion": 0.02,
+      "caste": 1.54,
+      "marital": 1.07,
+      "qualification": 0.02,
+      "job": 0.02,
+      "income": 0.01
+    }
+  },
+  "completed_at": 1785238570.9557061,
+  "duration_sec": 4.5
+}

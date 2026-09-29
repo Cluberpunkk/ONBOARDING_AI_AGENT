@@ -1,0 +1,54 @@
+{
+  "session_id": "ff3c93e05503",
+  "language": "hi",
+  "fields": {
+    "for_whom": {
+      "value": "son",
+      "display": "Son"
+    },
+    "full_name": {
+      "value": "विरेंद्र पाटील है",
+      "display": "विरेंद्र पाटील है"
+    },
+    "gender": {
+      "value": "male",
+      "display": "Male"
+    },
+    "dob": {
+      "value": "1995-08-15",
+      "display": "15 Aug 1995"
+    },
+    "district": {
+      "value": "नागपुर",
+      "display": "नागपुर"
+    },
+    "religion": {
+      "value": "Hindu",
+      "display": "Hindu"
+    },
+    "caste": {
+      "value": "मराठा",
+      "display": "मराठा"
+    },
+    "marital": {
+      "value": "never_married",
+      "display": "Never Married"
+    },
+    "qualification": {
+      "value": "12th",
+      "display": "12Th"
+    },
+    "job": {
+      "value": "farming",
+      "display": "Farming"
+    },
+    "income": {
+      "value": "3L-5L",
+      "display": "3L-5L"
+    }
+  },
+  "photo": null,
+  "attempts": {},
+  "completed_at": 1785196507.574743,
+  "duration_sec": 0.0
+}
